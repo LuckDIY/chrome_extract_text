@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "提取文本",
+  "version": "0.0.1",
+
+  "icons": {
+    "48": "images/home.jpg"
+  },
+
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_icon": {
+      "48": "images/settings.svg"
+    }
+  },
+  "permissions": [
+    "scripting","activeTab"
+  ]
+}
